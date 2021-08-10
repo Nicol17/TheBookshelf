@@ -6,12 +6,23 @@ export default makeStyles((theme) => ({
     display: 'block',
     width: '20%',
     height: 'auto',
-    margin: '5% auto'
+    margin: '5% auto',
+    [theme.breakpoints.down('md')]: {
+      width: '30%'
+    },
+    [theme.breakpoints.down("xs")]: {
+      width: '60%',
+      marginBottom: '50px'
+    }
   },
   AddIcon: {
-            display: 'block',
-            textAlign: 'center',
-            margin: '0 auto',
-            fontSize: '100px', 
-          },
+    display: 'block',
+    textAlign: 'center',
+    margin: '0 auto',
+    fontSize: '100px', 
+    [theme.breakpoints.down("sm")]: {
+      fontSize: '60px'
+    }
+  },
+
 }));

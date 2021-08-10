@@ -102,7 +102,6 @@ const Post = ({ book, currentId, setCurrentId }) => {
             <Typography paragraph variant="body2" color="textSecondary" component="p">My Review: {book.myReview}</Typography>
             <Typography paragraph variant="h6" component="h6">Genre: {book.genre}</Typography>
             <Typography paragraph variant="h6" component="h6">Pages: {book.pages}</Typography>
-            <Typography paragraph variant="h6" component="h6">_id: {book._id}</Typography>
             <Typography paragraph>URL: <Link href={book.url} target="_blank" variant="body2">{book.url}</Link></Typography>
             </CardContent>
         </Collapse></CardActions>
