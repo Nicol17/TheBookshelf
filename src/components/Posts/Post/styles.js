@@ -68,4 +68,11 @@ export default makeStyles((theme) => ({
   expandOpen: {
     transform: 'rotate(180deg)',
   },
+  [theme.breakpoints.down('sm')]: {
+    url : {
+      maxWidth: '50%',
+      textAlign: 'center',
+      margin: '0 auto'
+    }
+  }
 }));
