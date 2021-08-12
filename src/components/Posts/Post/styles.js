@@ -70,7 +70,7 @@ export default makeStyles((theme) => ({
   },
   [theme.breakpoints.down('sm')]: {
     url : {
-      maxWidth: '50%',
+      maxWidth: '20%',
       textAlign: 'center',
       margin: '0 auto'
     }
